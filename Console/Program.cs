@@ -3,7 +3,7 @@ using TRPO_Lab3.Lib;
 
 namespace TRPO_Lab3.ConsoleApp
 {
-    class Program//commit
+    class Program
     {
         static void Main(string[] args)
         {
