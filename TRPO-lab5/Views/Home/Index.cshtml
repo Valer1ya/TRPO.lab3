@@ -1,0 +1,32 @@
+﻿
+@{
+    ViewData["Title"] = "Боковая площадь усеченного конуса";
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>square</title>
+</head>
+<body style="background-color:#8ed4ea">
+    <h1>Боковая площадь усеченного конуса</h1>
+    <div>
+        <figure class="text-center">
+            <img src="https://infofaq.ru/wp-content/uploads/2016/10/usech_konus.jpg" alt="Возможно нет картинки :(" />
+        </figure>
+        <form action="" method="post">
+            <input type="number" name="radius" placeholder="Радиус" value="" />
+            <input type="number" name="radius1" placeholder="Радиус1" value="" />
+            <input type="number" name="length" placeholder="Длина" value="" />
+            <button>Рассчитать</button>
+
+            <p>
+                <h1>
+                    Результат: @ViewBag.Result
+                </h1>
+            </p>
+        </form>
+    </div>
+</body>
+</html>
+
